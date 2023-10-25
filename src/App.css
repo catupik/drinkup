@@ -41,6 +41,7 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: -25px;
   }
   li {
     font-family: 'Poiret One', sans-serif;
@@ -123,5 +124,5 @@ img{
           flex: 1 0 100%; /* В мобильной версии каждый элемент занимает 100% ширины экрана */
           margin: 5px 0;  /* Отступ только сверху и снизу */
       }
-      li {margin: 5px}
+      
   }

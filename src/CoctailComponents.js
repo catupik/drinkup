@@ -8,7 +8,7 @@ function CoctailComponents({ name, image, instructions, ingredients }) {
       <div className="container">
         <img src={image} alt="coctail" width="200" />
       </div>
-      <div className="container">
+      <div>
         <ul>
             {ingredients.map((element, index)=>(
                 <li key={index}>{element}</li>
