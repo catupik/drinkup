@@ -73,8 +73,9 @@ img{
     h1{
       font-family: 'Righteous', sans-serif;
       color: white;
-      font-size: 100px;
+      font-size: 90px;
       margin-bottom: 20px;
+      text-align: center;
       }
 
       input{
