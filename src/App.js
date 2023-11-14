@@ -20,8 +20,8 @@ function App() {
         const data = await response.json();
 
         if(data.drinks === null){
-          console.error('data.drinks is null')
-          setMyCoctail([])
+          // console.error('data.drinks is null')
+          // setMyCoctail([])
         } else{
           setMyCoctail(data.drinks);
         
