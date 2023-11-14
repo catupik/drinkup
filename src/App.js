@@ -60,13 +60,14 @@ function App() {
             onChange={myCoctailSearch}
             value={mySearch}
           ></input>
-        </form>
-      </div>
-
-      <div className="container">
+           <div className="container">
         <button onClick={finalSearch}
         >find your coctail</button>
       </div>
+        </form>
+      </div>
+
+     
 
     <div className="coctails">
     {myCoctail.map((element, index) =>{
